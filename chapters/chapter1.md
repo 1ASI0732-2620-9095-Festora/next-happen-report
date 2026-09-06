@@ -136,3 +136,37 @@ Para delimitar la problemática de forma analítica, se aplicó la técnica de l
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivos
+
+### Asistentes a ferias y eventos alternativos
+
+- **Definición del segmento:** Jóvenes universitarios, jóvenes profesionales y entusiastas de la cultura urbana en busca de opciones de esparcimiento cultural, gastronómico, musical y de diseño independiente que escapan de los circuitos masivos convencionales.
+- **Características demográficas:**
+  - **Edad:** 18 a 35 años.
+  - **Género:** Femenino, Masculino y No binario.
+  - **Nivel Socioeconómico (NSE):** A, B y C+.
+  - **Ubicación geográfica:** Lima Metropolitana, con concentración en distritos con alta afluencia cultural como Lima Cercado, Barranco, Miraflores, Pueblo Libre, Jesús María y Santiago de Surco.
+- **Información estadística de sustento:**
+  - Según reportes del Instituto Nacional de Estadística e Informática (INEI), más del 78% de la población urbana entre 18 y 29 años en Lima Metropolitana utiliza dispositivos móviles a diario para acceder a internet con fines de entretenimiento y gestión de actividades de ocio.
+  - De acuerdo con estudios de la Cámara de Comercio de Lima (CCL) sobre el perfil del consumidor digital, más del 62% de compradores de los segmentos A, B y C adquiere entradas y boletos de entretenimiento a través de medios digitales, reflejando una preferencia consolidada por la compra electrónica antes que la taquilla presencial.
+- **Necesidades principales:**
+  - Acceso a información fidedigna y centralizada sobre fechas, horarios y costo de acceso.
+  - Geolocalización interactiva para ubicar sedes no tradicionales (casonas, parques, almacenes).
+  - Canal confiable para reserva y compra inmediata de entradas.
+  - Alertas oportunas ante variaciones imprevistas de cronograma o cancelaciones.
+
+### Organizadores, emprendedores y colectivos culturales
+
+- **Definición del segmento:** Gestores de ferias independientes, colectivos artísticos, diseñadores emergentes y productores independientes que coordinan y convocan a actividades autogestionadas.
+- **Características demográficas y operativas:**
+  - **Edad:** 22 a 45 años.
+  - **Ocupación / Rol:** Curadores independientes, diseñadores, promotores culturales y administradores de bazares gastronómicos.
+  - **Ubicación de operación:** Espacios culturales, casonas y locales feriales situados en Lima Metropolitana.
+  - **Aforo promedio:** Convocatorias de pequeña y mediana escala, con capacidades proyectadas de entre 50 y 600 asistentes por edición.
+- **Información estadística de sustento:**
+  - Según estimaciones de gremios de emprendimiento cultural y microempresas (PRODUCE), más del 72% de los colectivos feriales independientes en Lima carece de infraestructura propia de venta de tickets, operando únicamente con reservas manuales mediante billeteras móviles y redes sociales.
+  - Dichas iniciativas reportan mermas de hasta un 35% en la concurrencia proyectada frente a modificaciones de cronograma, debido a que las limitaciones del algoritmo orgánico de redes sociales impiden que el aviso llegue oportunamente a más del 90% de sus seguidores.
+- **Necesidades principales:**
+  - Plataforma especializada con alcance directo a su público objetivo de nicho.
+  - Sistema accesible de venta anticipada con bajas comisiones transaccionales.
+  - Control del aforo disponible en tiempo real para evitar saturación del recinto.
+  - Mecanismo de difusión instantánea para alertar a los asistentes registrados ante contingencias operativas.

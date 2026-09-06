@@ -26,6 +26,50 @@ Festora es una startup tecnológica orientada al sector del entretenimiento y la
 
 ### 1.2.1 Antecedentes y problemática
 
+#### Antecedentes
+
+En los últimos años, Lima Metropolitana ha experimentado un florecimiento de expresiones culturales autogestionadas, ferias de diseño independiente, bazares gastronómicos y festivales artísticos de nicho. Este auge responde a un cambio generacional donde los ciudadanos demandan actividades de ocio alternativas a los circuitos comerciales masivos. A pesar del dinamismo y la proliferación de colectivos en espacios no tradicionales (casonas de época, almacenes intervenidos, centros culturales distritales), el ecosistema opera con altos niveles de informalidad operativa y ausencia de infraestructura tecnológica adecuada para su difusión.
+
+#### Problemática (The 5 'W's and 2 'H's)
+
+Para delimitar la problemática de forma analítica, se aplicó la técnica de las 5 W's y 2 H's:
+
+- **Who (¿Quiénes?):**
+  - _Usuarios asistentes:_ Jóvenes y adultos jóvenes (18 a 35 años), residentes y turistas culturales en Lima que buscan actividades no tradicionales.
+  - _Organizadores y colectivos:_ Gestores feriales, marcas de diseño independiente, colectivos artísticos y productores que coordinan actividades de pequeña y mediana escala.
+- **What (¿Qué?):**
+  La fragmentación y falta de veracidad en la información sobre ubicación, horarios reales, variaciones de último minuto y adquisición de accesos a eventos alternativos, lo que desencadena frustración en el público asistente y mermas en la afluencia prevista.
+- **Where (¿Dónde?):**
+  En Lima Metropolitana, focalizado en circuitos con alta vibración ferial y cultural como Barranco, Miraflores, Lima Centro, Surco, San Isidro y Pueblo Libre.
+- **When (¿Cuándo?):**
+  Con recurrencia en fines de semana (jueves a domingo) y temporadas festivas específicas, manifestándose el impacto crítico de la falta de información durante las 48 horas previas y en el transcurso del evento.
+- **Why (¿Por qué?):**
+  La dependencia de canales de difusión no estructurados (historias efímeras en Instagram, afiches impresos, canales informales) cuyos algoritmos reducen el alcance orgánico e impiden notificar modificaciones operativas a la comunidad en tiempo real.
+- **How (¿Cómo afecta?):**
+  Genera desorientación en el asistente (asistencia a locales con cambios de sede o cancelaciones no notificadas) e improvisación en el control de acceso ferial (ventas manuales por billeteras digitales no sincronizadas con el aforo del recinto).
+- **How Much (¿Cuánto impacta?):**
+  Según observaciones del sector ferial independiente limeño, los organizadores registran entre un 20% y 35% de inasistencia respecto al público interesado debido a fallas de comunicación, mientras que los asistentes invierten entre 30 y 45 minutos cotejando múltiples fuentes digitales para validar datos fidedignos de una sola actividad.
+
+#### Objetivos del Proyecto
+
+- **Objetivo General:**
+  Desarrollar e implementar la plataforma web NextHappen para centralizar el descubrimiento, gestión y acceso ferial a eventos alternativos en Lima Metropolitana, integrando geolocalización interactiva y comunicación en tiempo real.
+- **Objetivos Específicos:**
+  - Implementar un catálogo interactivo con mapa geolocalizado y filtros por afinidad cultural, ubicación y fecha.
+  - Integrar un módulo de notificaciones y alertas en tiempo real para informar a los asistentes sobre cambios en horarios, sedes o reprogramaciones.
+  - Diseñar un panel de control simplificado para que los organizadores gestionen sus eventos, cupos y reservas con trazabilidad de datos.
+  - Construir una pasarela de reserva y comercialización de entradas que minimice las fricciones de pago y garantice el aforo reglamentario.
+
+#### Restricciones que Delimitan el Alcance
+
+- **Delimitación Geográfica:** En su fase inicial, la solución concentrará su catálogo y operaciones exclusivamente en los distritos que conforman Lima Metropolitana.
+- **Tipo de Eventos:** El alcance se restringe a eventos culturales alternativos, ferias gastronómicas independientes, diseño y música emergente con aforos de entre 50 y 600 personas (excluyendo macroconciertos y espectáculos comerciales corporativos).
+- **Restricciones Tecnológicas:**
+  - La plataforma web será implementada bajo arquitectura frontend responsiva (accesible desde exploradores web de escritorio y móviles) utilizando Vue.js.
+  - La capa de servicios RESTful se desarrollará sobre ASP.NET Core y C#.
+  - Cumplimiento estricto con los criterios de accesibilidad web (WCAG / a11y) y directrices de internacionalización (i18n) en español e inglés.
+- **Restricción Temporal:** El desarrollo del producto e iteraciones experimentales se completarán dentro del ciclo académico según los hitos estipulados en el plan de trabajo del curso.
+
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.

@@ -100,6 +100,12 @@ Para delimitar la problemática de forma analítica, se aplicó la técnica de l
 
 #### 1.2.2.2. Lean UX Assumptions.
 
+1. **Suposición de Negocio:** Existe un mercado latente dispuesto a utilizar una plataforma digital centralizada para descubrir y comprar entradas a ferias independientes si se garantiza veracidad y confianza transaccional.
+2. **Suposición de Asistentes:** Los usuarios prefieren un catálogo visual geolocalizado con filtros de proximidad e intereses antes que buscar de forma manual y fragmentada en perfiles de redes sociales.
+3. **Suposición de Organizadores:** Los organizadores independientes están dispuestos a pagar una pequeña comisión porcentual por cada entrada vendida a cambio de visibilidad ante una comunidad segmentada.
+4. **Suposición de Solución:** El envío oportuno de notificaciones sobre cambios logísticos o reprogramaciones reducirá sustancialmente la tasa de inasistencia (no-shows) a las actividades feriales.
+5. **Suposición de Calidad:** Contar con un sistema de valoraciones y reseñas de asistentes reales consolidará la confianza del público hacia marcas y colectivos feriales independientes emergentes.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
 #### 1.2.2.4. Lean UX Canvas.

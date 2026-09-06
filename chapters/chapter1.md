@@ -74,6 +74,30 @@ Para delimitar la problemática de forma analítica, se aplicó la técnica de l
 
 #### 1.2.2.1. Lean UX Problem Statements.
 
+##### Problem Statement 1: Asistentes a ferias y experiencias culturales alternativas
+
+- **Domain:** Sector de ocio urbano, turismo cultural y consumo de eventos independientes en Lima Metropolitana.
+- **Customer Segments:** Jóvenes universitarios, jóvenes profesionales y público afín a la cultura alternativa que buscan actividades de esparcimiento fuera del circuito comercial tradicional.
+- **Pain Points:**
+  - Dispersión de información en redes sociales y canales informales no actualizados.
+  - Falta de certeza sobre la vigencia, ubicación exacta, precios y horarios reales de los eventos.
+  - Inexistencia de avisos inmediatos ante reprogramaciones, suspensiones o cambios de local.
+- **Gap:** Las plataformas comerciales de boletaje solo difunden espectáculos multitudinarios de alta demanda, desatendiendo la oferta de eventos independientes y autogestionados.
+- **Vision / Strategy:** Posicionar a NextHappen como la solución tecnológica interactiva que centraliza eventos emergentes mediante un mapa geolocalizado en tiempo real, con alertas de contingencia y reserva ágil de entradas.
+- **Initial Segment:** Personas de 18 a 30 años residentes o visitantes habituales de circuitos culturales (Barranco, Miraflores y Lima Centro) que asisten al menos a una feria o evento cultural por quincena.
+
+##### Problem Statement 2: Organizadores independientes, colectivos y emprendedores feriales
+
+- **Domain:** Difusión, comercialización y gestión operativa de eventos, bazares y ferias de pequeña y mediana escala.
+- **Customer Segments:** Productores culturales autogestionados, colectivos artísticos independientes y emprendedores feriales.
+- **Pain Points:**
+  - Pérdida de visibilidad por los algoritmos restrictivos de las redes sociales convencionales.
+  - Ausencia de herramientas accesibles para la preventa formal de accesos y la gestión de aforos en tiempo real.
+  - Dificultad para comunicarse de manera masiva e inmediata con los asistentes en caso de imprevistos.
+- **Gap:** Las ticketeras formales cobran tarifas fijas prohibitivas y exigen requisitos tributarios/legales inaccesibles para convocatorias feriales de mediana y pequeña escala.
+- **Vision / Strategy:** Dotar a los colectivos de un portal ágil y simplificado que les permita registrar sus ferias en minutos, comercializar entradas con costos transaccionales bajos y emitir notificaciones directas a su audiencia.
+- **Initial Segment:** Organizadores de ferias independientes y colectivos gastronómicos/diseño con aforos proyectados de entre 50 y 500 asistentes en Lima Metropolitana.
+
 #### 1.2.2.2. Lean UX Assumptions.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.

@@ -70,9 +70,9 @@ Para delimitar la problemática de forma analítica, se aplicó la técnica de l
   - Cumplimiento estricto con los criterios de accesibilidad web (WCAG / a11y) y directrices de internacionalización (i18n) en español e inglés.
 - **Restricción Temporal:** El desarrollo del producto e iteraciones experimentales se completarán dentro del ciclo académico según los hitos estipulados en el plan de trabajo del curso.
 
-### 1.2.2 Lean UX Process.
+### 1.2.2 Lean UX Process
 
-#### 1.2.2.1. Lean UX Problem Statements.
+#### 1.2.2.1. Lean UX Problem Statements
 
 ##### Problem Statement 1: Asistentes a ferias y experiencias culturales alternativas
 
@@ -98,7 +98,7 @@ Para delimitar la problemática de forma analítica, se aplicó la técnica de l
 - **Vision / Strategy:** Dotar a los colectivos de un portal ágil y simplificado que les permita registrar sus ferias en minutos, comercializar entradas con costos transaccionales bajos y emitir notificaciones directas a su audiencia.
 - **Initial Segment:** Organizadores de ferias independientes y colectivos gastronómicos/diseño con aforos proyectados de entre 50 y 500 asistentes en Lima Metropolitana.
 
-#### 1.2.2.2. Lean UX Assumptions.
+#### 1.2.2.2. Lean UX Assumptions
 
 1. **Suposición de Negocio:** Existe un mercado latente dispuesto a utilizar una plataforma digital centralizada para descubrir y comprar entradas a ferias independientes si se garantiza veracidad y confianza transaccional.
 2. **Suposición de Asistentes:** Los usuarios prefieren un catálogo visual geolocalizado con filtros de proximidad e intereses antes que buscar de forma manual y fragmentada en perfiles de redes sociales.
@@ -106,8 +106,33 @@ Para delimitar la problemática de forma analítica, se aplicó la técnica de l
 4. **Suposición de Solución:** El envío oportuno de notificaciones sobre cambios logísticos o reprogramaciones reducirá sustancialmente la tasa de inasistencia (no-shows) a las actividades feriales.
 5. **Suposición de Calidad:** Contar con un sistema de valoraciones y reseñas de asistentes reales consolidará la confianza del público hacia marcas y colectivos feriales independientes emergentes.
 
-#### 1.2.2.3. Lean UX Hypothesis Statements.
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### 1.2.2.4. Lean UX Canvas.
+- **Hypothesis 1:**
+  - **Creemos que:** al integrar un mapa georreferenciado e interactivo con filtros por tipo de evento en NextHappen, los usuarios decidirán con mayor rapidez a qué feria asistir.
+  - **Sabremos que hemos tenido éxito cuando:** aumente la tasa de conversión desde la visualización de la ficha ferial hacia la reserva o adquisición de boletos.
+  - **Métrica objetivo:** Al menos el 15% de las visitas al detalle de un evento culmine en una transacción de compra o reserva confirmada.
+
+- **Hypothesis 2:**
+  - **Creemos que:** al emitir alertas automáticas en tiempo real sobre modificaciones de horario, ubicación o suspensiones, se mitigará la frustración y la inasistencia.
+  - **Sabremos que hemos tenido éxito cuando:** se registre una disminución en la proporción de entradas adquiridas no utilizadas.
+  - **Métrica objetivo:** Reducción de al menos un 20% en la tasa de inasistencia (no-shows) en comparación con eventos que no emiten alertas automatizadas.
+
+- **Hypothesis 3:**
+  - **Creemos que:** al proporcionar recomendaciones basadas en los intereses declarados por el usuario, se incrementará el descubrimiento de ferias de nicho.
+  - **Sabremos que hemos tenido éxito cuando:** los usuarios interactúen activamente con las secciones de eventos sugeridos.
+  - **Métrica objetivo:** Al menos el 10% del total de accesos al detalle de eventos provenga de las tarjetas del módulo de recomendaciones personalizadas.
+
+- **Hypothesis 4:**
+  - **Creemos que:** al brindar a los emprendedores y colectivos una interfaz simple para la publicación y gestión de sus convocatorias, se elevará la recurrencia de eventos en el catálogo.
+  - **Sabremos que hemos tenido éxito cuando:** los organizadores publiquen más de una actividad en la plataforma de forma consecutiva.
+  - **Métrica objetivo:** Al menos el 30% de los organizadores registrados publique una nueva convocatoria durante el mes posterior a su primera publicación.
+
+- **Hypothesis 5:**
+  - **Creemos que:** al implementar un sistema transparente de puntuación y comentarios de asistentes verificados, se elevará la percepción de confiabilidad del servicio.
+  - **Sabremos que hemos tenido éxito cuando:** la calificación promedio de las actividades se mantenga alta y decrezcan las reclamaciones de los usuarios.
+  - **Métrica objetivo:** Mantener una valoración comunitaria promedio igual o superior a 4.2 / 5.0 y reducir las quejas por inconsistencia informativa en al menos un 15%.
+
+#### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivos

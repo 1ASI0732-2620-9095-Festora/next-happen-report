@@ -119,3 +119,13 @@
 | 35 | US21 | Detalles del evento | Agregar información detallada. | 3 |
 
 ## 3.4. Impact Mapping
+
+### Organizador
+
+<img src="../assets/capitulo III/Impact map 1.png"/>
+
+---
+
+### Usuario
+
+<img src="../assets/capitulo III/Impact map 2.png"/>

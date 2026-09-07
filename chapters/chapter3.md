@@ -79,4 +79,43 @@
 
 ## 3.3. Product Backlog.
 
+
+| # Orden | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
+| 1 | US06 | Búsqueda por filtros | Filtrar eventos por categoría, fecha y ubicación. | 5 |
+| 2 | US08 | Detalle del evento | Ver información completa de eventos. | 3 |
+| 3 | US07 | Mapa interactivo | Visualizar eventos en mapa. | 5 |
+| 4 | US11 | Compra de entradas | Comprar entradas de forma segura. | 8 |
+| 5 | US18 | Publicar evento | Crear eventos y publicarlos. | 5 |
+| 6 | US19 | Editar evento | Editar eventos publicados. | 3 |
+| 7 | US20 | Mis eventos | Gestionar eventos fácilmente. | 3 |
+| 8 | US23 | Registro | Crear cuenta en la plataforma. | 5 |
+| 9 | US24 | Login | Iniciar sesión en la plataforma. | 3 |
+| 10 | US29 | Notificaciones | Recibir alertas y avisos importantes. | 5 |
+| 11 | US12 | Entrada digital | Mostrar entrada digital del usuario. | 3 |
+| 12 | US13 | Validación de ticket | Validar tickets en eventos. | 5 |
+| 13 | US09 | Favoritos | Guardar eventos favoritos. | 2 |
+| 14 | US15 | Recomendaciones | Mostrar eventos sugeridos. | 5 |
+| 15 | US31 | Métricas ventas | Visualizar ventas del evento. | 3 |
+| 16 | US32 | Métricas alcance | Ver métricas de alcance. | 3 |
+| 17 | US33 | Métricas asistencia | Medir asistencia real. | 5 |
+| 18 | US22 | Gestión de cupos | Controlar capacidad del evento. | 5 |
+| 19 | US14 | Historial de entradas | Consultar compras realizadas. | 2 |
+| 20 | US10 | Compartir eventos | Compartir eventos con otros usuarios. | 2 |
+| 21 | US16 | Suscripción categorías | Recibir eventos según intereses. | 3 |
+| 22 | US30 | Recordatorios | Recibir recordatorios de eventos. | 3 |
+| 23 | US25 | Recuperar contraseña | Recuperar acceso a la cuenta. | 2 |
+| 24 | US26 | Moderación | Revisar contenido publicado. | 3 |
+| 25 | US27 | Roles | Administrar permisos de usuarios. | 3 |
+| 26 | US28 | Dashboard admin | Visualizar métricas globales. | 5 |
+| 27 | US34 | Cambio idioma app | Cambiar idioma de la aplicación. | 2 |
+| 28 | US35 | Traducción eventos | Traducir contenido de eventos. | 3 |
+| 29 | US01 | Acceso a la app | Acceder desde la landing page. | 2 |
+| 30 | US02 | Cambio idioma landing | Cambiar idioma en landing page. | 2 |
+| 31 | US03 | Navegación responsive | Adaptar interfaz a dispositivos. | 3 |
+| 32 | US04 | Contenido visual | Mostrar imágenes de eventos. | 2 |
+| 33 | US05 | Redes sociales | Acceso a redes sociales. | 1 |
+| 34 | US17 | Personalización | Adaptar contenido al usuario. | 3 |
+| 35 | US21 | Detalles del evento | Agregar información detallada. | 3 |
+
 ## 3.4. Impact Mapping

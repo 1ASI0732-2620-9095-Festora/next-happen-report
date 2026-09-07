@@ -20,7 +20,7 @@ Festora es una startup tecnológica orientada al sector del entretenimiento y la
 | <img src="../assets/chapter-1/foto-alison.jpg" width="120" alt="Foto de Alison Jimena Arrieta Quispe"/> | **Arrieta Quispe, Alison Jimena** | u202312031 | Ingeniería de Software |  |
 | <img src="../assets/chapter-1/foto-gabriel-mamani.jpg" width="120" alt="Foto de Gabriel Cristian Mamani Marca"/> | **Mamani Marca, Gabriel Cristian** | u202220659 | Ingeniería de Software |  |
 | <img src="../assets/chapter-1/foto-gabriel-rivera.jpg" width="120" alt="Foto de Gabriel Alejandro Rivera Ayala"/> | **Rivera Ayala, Gabriel Alejandro** | u202223279 | Ingeniería de Software |  |
-| <img src="../assets/chapter-1/foto-yazid.jpg" width="120" alt="Foto de Yazid Said Conde"/> | **Said Conde, Yazid** | u202312348 | Ingeniería de Software |  |
+| <img src="../assets/chapter-1/foto-yazid.jpeg" width="120" alt="Foto de Yazid Said Conde"/> | **Said Conde, Yazid** | u202312348 | Ingeniería de Software |  |
 
 ## 1.2. Solution Profile
 

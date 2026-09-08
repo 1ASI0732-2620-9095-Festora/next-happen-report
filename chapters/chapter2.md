@@ -41,6 +41,30 @@
 
 ### 2.2.1. Diseño de entrevistas
 
+#### Preguntas Generales (Demográficas y Contexto)
+
+1. ¿Cuál es su nombre completo, edad, ocupación y distrito de residencia?
+2. ¿Qué dispositivos móviles y navegadores web utiliza con mayor frecuencia en su día a día?
+3. ¿Cuáles son sus marcas, pasatiempos o actividades de ocio favoritas durante los fines de semana?
+
+#### Preguntas para Asistentes a Ferias y Eventos Alternativos
+
+1. ¿Con qué frecuencia asiste a ferias de diseño, bazares gastronómicos o eventos culturales independientes en Lima?
+2. ¿Qué medios o canales digitales consulta para enterarse de este tipo de actividades?
+3. ¿Cuáles son los principales problemas o frustraciones que experimenta al buscar información sobre una feria?
+4. ¿Qué datos considera estrictamente indispensables antes de decidir asistir a un evento ferial?
+5. ¿Alguna vez ha llegado a un evento que cambió de horario, local o fue cancelado sin previo aviso? ¿Cómo impactó su experiencia?
+6. ¿Estaría dispuesto a adquirir o reservar sus entradas a través de una plataforma web? ¿Qué medios de pago prefiere?
+
+#### Preguntas para Organizadores y Emprendedores Culturales
+
+1. ¿Qué tipo de eventos o ferias organiza y cuál es el aforo promedio que maneja?
+2. ¿Cómo gestiona actualmente la difusión de sus convocatorias y qué limitaciones encuentra en las redes sociales?
+3. ¿Cómo administra la preventa de entradas y el control de asistencia al recinto?
+4. ¿Qué métricas de asistencia o ventas le gustaría conocer para optimizar sus siguientes ediciones?
+5. ¿Estaría dispuesto a pagar una comisión porcentual accesible o suscripción por una herramienta que centralice la venta y difusión de su evento?
+6. ¿Qué funciones consideraría indispensables en un panel de control para organizadores?
+
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas

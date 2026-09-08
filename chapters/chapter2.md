@@ -29,7 +29,7 @@
 | **Oportunidades** | Capturar el 70% de colectivos feriales que operan informalmente en redes sociales; auge del consumo cultural urbano. | Expansión hacia eventos corporativos híbridos y streaming en vivo. | Incorporar experiencias feriales gastronómicas independientes dentro de sus paquetes de ocio. | Integrar pasarelas de pago directas para reservas sin derivar a enlaces externos. |
 | **Amenazas** | Copia de funcionalidades por plataformas grandes; resistencia inicial al pago digital en ferias independientes. | Entrada de plataformas globales de ticketing (ej. Ticketmaster, Eventbrite) al mercado peruano. | Disminución del gasto de los hogares en ocio no esencial debido a recesiones económicas. | Migración de los usuarios jóvenes hacia redes visuales como TikTok, reduciendo el tráfico de Facebook. |
 
-* **Evaluación estratégica:** Mientras Joinnus domina los eventos comerciales y Facebook Events sufre de desinformación algorítmica, NextHappen capitaliza la debilidad de ambos al ofrecer una plataforma curada, geolocalizada y con tarifas justas para la escena independiente limeña.
+- **Evaluación estratégica:** Mientras Joinnus domina los eventos comerciales y Facebook Events sufre de desinformación algorítmica, NextHappen capitaliza la debilidad de ambos al ofrecer una plataforma curada, geolocalizada y con tarifas justas para la escena independiente limeña.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -66,6 +66,28 @@
 6. ¿Qué funciones consideraría indispensables en un panel de control para organizadores?
 
 ### 2.2.2. Registro de entrevistas
+
+#### Segmento 1: Asistentes a Ferias y Eventos Alternativos
+
+##### Entrevista 1
+
+- **Entrevistado:** Darío Salvador
+- **Edad:** 23 años | **Distrito:** San Miguel
+- **Perfil:** Estudiante universitario, usuario intensivo de iOS y Chrome. Le apasionan los bazares de ilustración y la música indie.
+- **Evidencia:** [Enlace al Video en Microsoft Stream / OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210720_upc_edu_pe/IQDgKORi-5WmSZT3uhYNiWvAAakLVbBjM-TODal_YLVxhkY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qyOqct) (Timestamp: 00:00 - Duración: 02:35)
+- **Captura:** <br><img src="/assets/chapter-2/entrevista1.png" width="450" alt="Entrevista Dario Salvador"/>
+- **Resumen descriptivo:** Darío señala que busca ferias a través de historias de Instagram, pero las publicaciones desaparecen a las 24 horas y rara vez detallan si aceptan tarjeta o el costo de ingreso. En dos ocasiones acudió a ferias en Barranco que habían cambiado de sede debido a fiscalización municipal, perdiendo tiempo y dinero en transporte. Valora una solución que tenga mapa interactivo y pasarelas de pago mediante billeteras móviles (Yape/Plin).
+
+#### Segmento 2: Organizadores y Colectivos Feriales
+
+##### Entrevista 2
+
+- **Entrevistado:** Juan Carlos Alvarado
+- **Edad:** 26 años | **Distrito:** Callao
+- **Perfil:** Productor cultural independiente de ferias de arte emergente con aforos de 150 personas.
+- **Evidencia:** [Enlace al Video en Microsoft Stream / OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210720_upc_edu_pe/IQB7NSr1yl28SoLwTIBJkofDAUO8TNNAUTQSXsEenv8zBZw?e=8gIW7T&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) (Timestamp: 00:00 - Duración: 02:16)
+- **Captura:** <br><img src="/assets/chapter-2/entrevista2.png" width="450" alt="Entrevista Juan Carlos Alvarado"/>
+- **Resumen descriptivo:** Juan Carlos indica que invierte en publicidad de Instagram pero el alcance ha caído drásticamente. Gestiona las preventas enviando su número de Yape por mensaje directo y apuntando en hojas de cálculo, lo que le demanda horas y ocasiona errores de duplicidad. Aceptaría pagar hasta un 8% de comisión a cambio de un panel que automatice los accesos y le permita enviar avisos masivos a los inscritos.
 
 ### 2.2.3. Análisis de entrevistas
 

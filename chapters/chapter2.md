@@ -33,6 +33,10 @@
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+- **Estrategia de Penetración en el Ecosistema Cultural:** Frente a la fortaleza de Joinnus (infraestructura) y Facebook (gratuidad), NextHappen aplicará como táctica un modelo de comisiones reducidas (6% frente al 12% de Joinnus) durante el primer año y acompañamiento técnico directo a los colectivos feriales para digitalizar sus accesos.
+- **Táctica de Curaduría y Confianza Informativa:** Frente a la desinformación de Facebook Events, la plataforma implementará verificación de identidad de organizadores y actualización geolocalizada obligatoria, garantizando que el usuario solo encuentre eventos reales y vigentes.
+- **Estrategia de Fidelización de Nicho:** Frente al enfoque disperso de Atrápalo, NextHappen enfocará su marketing en alianzas con casas culturales de Barranco, Centro de Lima y Miraflores, convirtiéndose en el canal exclusivo de la movida alternativa urbana.
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas

@@ -61,17 +61,23 @@
 ## 4.8. Domain-Driven Software Architecture
 
 ### 4.8.1. Software Architecture Context Diagram
-
+![context.png](../assets/diagramas/context.png)
 ### 4.8.2. Software Architecture Container Diagrams
-
+![container.png](../assets/diagramas/container.png)
 ### 4.8.3. Software Architecture Components Diagrams
-
+![iam.png](../assets/diagramas/iam.png)
+![event.png](../assets/diagramas/event.png)
+![engagement.png](../assets/diagramas/engagement.png)
+![ticket.png](../assets/diagramas/ticket.png)
 ## 4.9. Software Object-Oriented Design
 
 ### 4.9.1. Class Diagrams
-
+![engagement.png](../assets/diagramas/clase/engagement.png)
+![event.png](../assets/diagramas/clase/event.png)
+![iam.png](../assets/diagramas/clase/iam.png)
+![ticket.png](../assets/diagramas/clase/ticket.png)
 ### 4.9.2. Class Dictionary
 
 ## 4.10. Database Design
-
 ### 4.10.1. Relational/Non-Relational Database Diagram
+![database.png](../assets/diagramas/clase/database.png)

@@ -101,22 +101,21 @@
 | 17 | US33 | Métricas asistencia | Medir asistencia real. | 5 |
 | 18 | US22 | Gestión de cupos | Controlar capacidad del evento. | 5 |
 | 19 | US14 | Historial de entradas | Consultar compras realizadas. | 2 |
-| 20 | US10 | Compartir eventos | Compartir eventos con otros usuarios. | 2 |
-| 21 | US16 | Suscripción categorías | Recibir eventos según intereses. | 3 |
-| 22 | US30 | Recordatorios | Recibir recordatorios de eventos. | 3 |
-| 23 | US25 | Recuperar contraseña | Recuperar acceso a la cuenta. | 2 |
-| 24 | US26 | Moderación | Revisar contenido publicado. | 3 |
-| 25 | US27 | Roles | Administrar permisos de usuarios. | 3 |
-| 26 | US28 | Dashboard admin | Visualizar métricas globales. | 5 |
-| 27 | US34 | Cambio idioma app | Cambiar idioma de la aplicación. | 2 |
-| 28 | US35 | Traducción eventos | Traducir contenido de eventos. | 3 |
-| 29 | US01 | Acceso a la app | Acceder desde la landing page. | 2 |
-| 30 | US02 | Cambio idioma landing | Cambiar idioma en landing page. | 2 |
-| 31 | US03 | Navegación responsive | Adaptar interfaz a dispositivos. | 3 |
-| 32 | US04 | Contenido visual | Mostrar imágenes de eventos. | 2 |
-| 33 | US05 | Redes sociales | Acceso a redes sociales. | 1 |
-| 34 | US17 | Personalización | Adaptar contenido al usuario. | 3 |
-| 35 | US21 | Detalles del evento | Agregar información detallada. | 3 |
+| 20 | US16 | Suscripción categorías | Recibir eventos según intereses. | 3 |
+| 21 | US30 | Recordatorios | Recibir recordatorios de eventos. | 3 |
+| 22 | US25 | Recuperar contraseña | Recuperar acceso a la cuenta. | 2 |
+| 23 | US26 | Moderación | Revisar contenido publicado. | 3 |
+| 24 | US27 | Roles | Administrar permisos de usuarios. | 3 |
+| 25 | US28 | Dashboard admin | Visualizar métricas globales. | 5 |
+| 26 | US34 | Cambio idioma app | Cambiar idioma de la aplicación. | 2 |
+| 27 | US35 | Traducción eventos | Traducir contenido de eventos. | 3 |
+| 28 | US01 | Acceso a la app | Acceder desde la landing page. | 2 |
+| 29 | US02 | Cambio idioma landing | Cambiar idioma en landing page. | 2 |
+| 30 | US03 | Navegación responsive | Adaptar interfaz a dispositivos. | 3 |
+| 31 | US04 | Contenido visual | Mostrar imágenes de eventos. | 2 |
+| 32 | US05 | Redes sociales | Acceso a redes sociales. | 1 |
+| 33 | US17 | Personalización | Adaptar contenido al usuario. | 3 |
+| 34 | US21 | Detalles del evento | Agregar información detallada. | 3 |
 
 ## 3.4. Impact Mapping
 

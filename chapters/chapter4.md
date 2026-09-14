@@ -228,33 +228,61 @@ Dentro del perfil de Organizador:
 
 <img src="../assets/chapter4/MockUp-Landing-Page.png"/>
 
-## 4.4. Mobile Applications UX/UI Design
-
-### 4.4.1. Mobile Applications Wireframes
-
-### 4.4.2. Mobile Applications Wireflow Diagrams
-
-### 4.4.3. Mobile Applications Mock-ups
-
-### 4.4.4. Mobile Applications User Flow Diagrams
-
-## 4.5. Mobile Applications Prototyping
-
-### 4.5.1. Android Mobile Applications Prototyping
-
-### 4.5.2. iOS Mobile Applications Prototyping
 
 ## 4.6. Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
 
+Vista como usuario
+
+<img src="../assets/chapter4/111.png"/>
+<img src="../assets/chapter4/222.png"/>
+<img src="../assets/chapter4/333.png"/>
+<img src="../assets/chapter4/444.png"/>
+<img src="../assets/chapter4/555.png"/>
+
+Vista de Organizador
+
+<img src="../assets/chapter4/32.png"/>
+<img src="../assets/chapter4/31.png"/>
+<img src="../assets/chapter4/33.png"/>
+<img src="../assets/chapter4/34.png"/>
+<img src="../assets/chapter4/35.png"/>
+<img src="../assets/chapter4/36.png"/>
+
 ### 4.6.2. Web Applications Wireflow Diagrams
 
+<img src="../assets/chapter4/wireframe.png"/>
+
 ### 4.6.3. Web Applications Mock-ups
+Vista como usuario
+
+<img src="../assets/chapter4/11.png"/>
+<img src="../assets/chapter4/12.png"/>
+<img src="../assets/chapter4/13.png"/>
+<img src="../assets/chapter4/14.png"/>
+<img src="../assets/chapter4/15.png"/>
+
+Vista de organizador
+
+<img src="../assets/chapter4/1.png"/>
+<img src="../assets/chapter4/2.png"/>
+<img src="../assets/chapter4/3.png"/>
+<img src="../assets/chapter4/4.png"/>
+<img src="../assets/chapter4/5.png"/>
+<img src="../assets/chapter4/6.png"/>
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
+<img src="../assets/chapter4/Mockup-prototype.png"/>
+
+<img src="../assets/chapter4/Mockup-prototype2.png"/>
+
 ## 4.7. Web Applications Prototyping
+
+<img src="../assets/chapter4/Mockup-prototype.png"/>
+
+<img src="../assets/chapter4/Mockup-prototype2.png"/>
 
 ## 4.8. Domain-Driven Software Architecture
 

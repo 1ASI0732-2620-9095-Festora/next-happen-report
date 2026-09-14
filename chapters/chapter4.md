@@ -222,7 +222,11 @@ Dentro del perfil de Organizador:
 
 ### 4.3.1. Landing Page Wireframe
 
+<img src="../assets/chapter4/Wireframe-Landing-Page.png"/>
+
 ### 4.3.2. Landing Page Mock-up
+
+<img src="../assets/chapter4/MockUp-Landing-Page.png"/>
 
 ## 4.4. Mobile Applications UX/UI Design
 

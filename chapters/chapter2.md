@@ -168,9 +168,21 @@ Los usuarios buscan experiencias, pero enfrentan dificultades por la falta de in
 
 ### 2.3.3. User Journey Mapping
 
+Segmento 1 - Usuario
+
+<img src="../assets/chapter-2/journey1.png" width="800"/>
+
+Segmento 2 - Organizador
+
+<img src="../assets/chapter-2/journey2.png" width="800"/>
+
 ### 2.3.4. Empathy Mapping
 
+Segmento 1 - Usuario
+
 <img src="../assets/chapter-2/empathy1.png" width="800"/>
+
+Segmento 2 - Organizador
 
 <img src="../assets/chapter-2/empathy2.png" width="800"/>
 

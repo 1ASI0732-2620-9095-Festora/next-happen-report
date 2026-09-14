@@ -266,12 +266,170 @@ Dentro del perfil de Organizador:
 ## 4.9. Software Object-Oriented Design
 
 ### 4.9.1. Class Diagrams
+
 ![engagement.png](../assets/diagramas/clase/engagement.png)
 ![event.png](../assets/diagramas/clase/event.png)
 ![iam.png](../assets/diagramas/clase/iam.png)
 ![ticket.png](../assets/diagramas/clase/ticket.png)
 ### 4.9.2. Class Dictionary
 
+#### 1. IAM Bounded Context
+
+##### Class: User
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| id | UUID | Identificador único de un usuario |
+| email | String | Correo electrónico de un usuario |
+| status | UserStatus | Estado actual de la cuenta del usuario |
+| lastLogin | DateTime | Fecha y hora del último inicio de sesión |
+| createdAt | DateTime | Fecha y hora de creación de la cuenta |
+
+##### Class: Profile
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| firstName | String | Nombre(s) del usuario |
+| lastName | String | Apellido(s) del usuario |
+| phone | String | Número de teléfono del usuario |
+
+##### Class: Credentials
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| passwordHash | String | Contraseña encriptada (hash) del usuario |
+| mfaEnabled | Boolean | Indicador de si la autenticación multifactor está activada |
+
+##### Class: Role
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| name | String | Nombre del rol |
+| description | String | Descripción de los permisos del rol |
+
+##### Class: Permission
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| name | String | Nombre del permiso específico |
+
+#### 2. Event Bounded Context
+
+##### Class: Event
+
+| Attribute | Type | Description |
+|---|---|---|
+| id | UUID | Identificador único de un evento |
+| title | String | Título o nombre del evento |
+| description | String | Descripción detallada del evento |
+| status | EventStatus | Estado actual del evento |
+| tags | List | Lista de etiquetas asociadas al evento |
+| organizerId | UUID | Identificador único del organizador del evento |
+
+##### Class: Schedule
+
+| Attribute | Type | Description |
+|---|---|---|
+| startTime | DateTime | Fecha y hora de inicio del evento |
+| endTime | DateTime | Fecha y hora de finalización del evento |
+| timezone | String | Zona horaria en la que ocurre el evento |
+
+##### Class: Venue
+
+| Attribute | Type | Description |
+|---|---|---|
+| id | UUID | Identificador único de un recinto (venue) |
+| name | String | Nombre del recinto |
+| address | String | Dirección física del recinto |
+| capacity | Integer | Capacidad máxima de personas en el recinto |
+
+#### 3. Ticket Bounded Context
+
+##### Class: Order
+
+| Attribute | Type | Description |
+|---|---|---|
+| id | UUID | Identificador único de una orden de compra |
+| ownerId | UUID | Identificador único del dueño de la orden |
+| eventId | UUID | Identificador único del evento asociado a la orden |
+| status | OrderStatus | Estado actual de la orden |
+| createdAt | DateTime | Fecha y hora de creación de la orden |
+
+##### Class: Ticket
+
+| Attribute | Type | Description |
+|---|---|---|
+| id | UUID | Identificador único de un ticket |
+| status | TicketStatus | Estado actual del ticket |
+| issuedAt | DateTime | Fecha y hora en que se emitió el ticket |
+
+##### Class: TicketTier
+
+| Attribute | Type | Description |
+|---|---|---|
+| id | UUID | Identificador único de una categoría de ticket |
+| eventId | UUID | Identificador del evento al que pertenece la categoría |
+| name | String | Nombre de la categoría (ej. VIP, General) |
+| benefits | List | Lista de beneficios incluidos en esta categoría |
+| totalCapacity | Integer | Capacidad total de tickets para esta categoría |
+| availableCapacity | Integer | Cantidad de tickets aún disponibles en esta categoría |
+
+##### Class: Validation
+
+| Attribute | Type | Description |
+|---|---|---|
+| qrCodeData | String | Información contenida en el código QR del ticket |
+| scanned | Boolean | Indicador de si el ticket ya fue escaneado |
+| scannedAt | DateTime | Fecha y hora en que se escaneó el ticket |
+
+##### Class: Price
+
+| Attribute | Type | Description |
+|---|---|---|
+| amount | Decimal | Monto o valor monetario del ticket |
+| currency | String | Moneda en la que está expresado el precio |
+
+#### 4. Engagement Bounded Context
+
+##### Class: Interaction
+
+| Attribute | Type | Description |
+|---|---|---|
+| id | UUID | Identificador único de una interacción |
+| userId | UUID | Identificador del usuario que realiza la interacción |
+| eventId | UUID | Identificador del evento asociado a la interacción |
+| type | InteractionType | Tipo de interacción realizada |
+| channel | ChannelType | Canal por el cual se realizó la interacción |
+| timestamp | DateTime | Fecha y hora exacta de la interacción |
+
+##### Class: InteractionMetadata
+
+| Attribute | Type | Description |
+|---|---|---|
+| deviceOs | String | Sistema operativo del dispositivo usado en la interacción |
+| timeSpentSeconds | Integer | Tiempo en segundos de duración de la interacción |
+| clickedBuyButton | Boolean | Indicador de si el usuario hizo clic en el botón de compra |
+
+##### Class: Campaign
+
+| Attribute | Type | Description |
+|---|---|---|
+| id | UUID | Identificador único de una campaña |
+| name | String | Nombre de la campaña |
+| sourceCode | String | Código de origen (source code) de la campaña |
+| status | CampaignStatus | Estado actual de la campaña |
+| startDate | DateTime | Fecha y hora de inicio de la campaña |
+| endDate | DateTime | Fecha y hora de finalización de la campaña |
+
+##### Class: Notification
+
+| Attribute | Type | Description |
+|---|---|---|
+| id | UUID | Identificador único de una notificación |
+| recipientId | UUID | Identificador del usuario que recibe la notificación |
+| content | String | Contenido o mensaje de la notificación |
+| sentAt | DateTime | Fecha y hora en que se envió la notificación |
+| type | ChannelType | Canal por el cual se envía la notificación |
 ## 4.10. Database Design
 ### 4.10.1. Relational/Non-Relational Database Diagram
 ![database.png](../assets/diagramas/clase/database.png)

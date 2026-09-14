@@ -135,6 +135,8 @@ Para delimitar la problemática de forma analítica, se aplicó la técnica de l
 
 #### 1.2.2.4. Lean UX Canvas
 
+![LeanUXCanvas.jpg](../assets/chapter-1/canvas.jpg)
+
 ## 1.3. Segmentos objetivos
 
 ### Asistentes a ferias y eventos alternativos

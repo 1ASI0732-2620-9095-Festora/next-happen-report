@@ -14,13 +14,13 @@ Festora es una startup tecnológica orientada al sector del entretenimiento y la
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto del estudiante | Apellidos y Nombres | Código de Estudiante | Carrera | Conocimientos y habilidades que aporta |
-| :---: | :--- | :---: | :--- | :--- |
+|                                                Foto del estudiante                                                | Apellidos y Nombres | Código de Estudiante | Carrera | Conocimientos y habilidades que aporta |
+|:-----------------------------------------------------------------------------------------------------------------:| :--- | :---: | :--- | :--- |
 | <img src="../assets/chapter-1/foto-gonzalo.jpg" width="120" alt="Foto de Gonzalo Alonso Carhuancote Domminguez"/> | **Carhuancote Domminguez, Gonzalo Alonso** | u202210720 | Ingeniería de Software | Estudiante de Ingeniería de Software con experiencia práctica en desarrollo backend y lógica de negocio. Posee dominio técnico en lenguajes como C++, Java, TypeScript y Python, aportando al diseño de arquitectura de software, implementación de servicios RESTful y configuración de entornos. |
-| <img src="../assets/chapter-1/foto-alison.jpg" width="120" alt="Foto de Alison Jimena Arrieta Quispe"/> | **Arrieta Quispe, Alison Jimena** | u202312031 | Ingeniería de Software |  |
-| <img src="../assets/chapter-1/foto-gabriel-mamani.jpg" width="120" alt="Foto de Gabriel Cristian Mamani Marca"/> | **Mamani Marca, Gabriel Cristian** | u202220659 | Ingeniería de Software |  |
+|      <img src="../assets/chapter-1/foto-alison.jpg" width="120" alt="Foto de Alison Jimena Arrieta Quispe"/>      | **Arrieta Quispe, Alison Jimena** | u202312031 | Ingeniería de Software |  |
+|      <img src="../assets/chapter-1/foto-gabriel.png" width="120" alt="Foto de Gabriel Cristian Mamani Marca"/>      | **Mamani Marca, Gabriel Cristian** | u202220659 | Ingeniería de Software |Soy estudiante de séptimo de la carrera de Ingeniería de Software. Durante el camino aprendí lenguajes como C++, Python, Java y .Net. También, sobre  gestores de base de datos como MongoDB y MySQL.  |
 | <img src="../assets/chapter-1/foto-gabriel-rivera.jpg" width="120" alt="Foto de Gabriel Alejandro Rivera Ayala"/> | **Rivera Ayala, Gabriel Alejandro** | u202223279 | Ingeniería de Software |  |
-| <img src="../assets/chapter-1/foto-yazid.jpeg" width="120" alt="Foto de Yazid Said Conde"/> | **Said Conde, Yazid** | u202312348 | Ingeniería de Software |  |
+|            <img src="../assets/chapter-1/foto-yazid.jpeg" width="120" alt="Foto de Yazid Said Conde"/>            | **Said Conde, Yazid** | u202312348 | Ingeniería de Software |  |
 
 ## 1.2. Solution Profile
 
@@ -134,6 +134,8 @@ Para delimitar la problemática de forma analítica, se aplicó la técnica de l
   - **Métrica objetivo:** Mantener una valoración comunitaria promedio igual o superior a 4.2 / 5.0 y reducir las quejas por inconsistencia informativa en al menos un 15%.
 
 #### 1.2.2.4. Lean UX Canvas
+
+![LeanUXCanvas.jpg](../assets/chapter-1/canvas.jpg)
 
 ## 1.3. Segmentos objetivos
 

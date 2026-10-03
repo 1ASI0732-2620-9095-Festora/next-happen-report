@@ -117,10 +117,10 @@
 
 ### Organizador
 
-<img src="../assets/capitulo III/Impact map 1.png"/>
+<img src="../assets/capitulo-3/Impact map 1.png"/>
 
 ---
 
 ### Usuario
 
-<img src="../assets/capitulo III/Impact map 2.png"/>
+<img src="../assets/capitulo-3/Impact map 2.png"/>

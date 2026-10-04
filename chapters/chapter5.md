@@ -338,11 +338,18 @@ Esta herramienta permite centralizar y mantener actualizada la documentación de
 
 De esta manera, Swagger sirve como un punto de referencia común para los desarrolladores y facilita la comunicación entre las diferentes partes del sistema.
 
+## 5.2.1.7 Team Collaboration Insights
+##### Documentación
+![img_3.png](../assets/sprints/1/img_3.png)
+##### Aplicación móvil
+![img.png](../assets/sprints/1/img.png)
+##### Frontend
+![img_1.png](../assets/sprints/1/img_1.png)
+##### Backend
+![img_2.png](../assets/sprints/1/img_2.png)
 
 ### 5.2.2.1 Sprint Backlog 2
 
-## 5.2.7. Team Collaboration Insights
-### 5.2.1.2 Sprint Backlog 2
 
 | User Story ID | User Story | WorkItem ID | WorkItem / Task | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---:|---|---|
@@ -369,16 +376,32 @@ De esta manera, Swagger sirve como un punto de referencia común para los desarr
 | US05 | Redes sociales | TK37 | Revisión de enlaces sociales | Revisar los enlaces de redes sociales implementados y detectar enlaces incorrectos o faltantes. | 1 | Gabriel Rivera | Done |
 | | | TK38 | Corrección de enlaces sociales | Corregir y validar los enlaces hacia las redes sociales oficiales desde la aplicación. | 1 | Alison Arrieta | Done |
 
+![img_4.png](../assets/sprints/1/img_4.png)
+
+Link del trello: https://trello.com/invite/b/692cd23f31a6e4924e849a19/ATTI0d9fd2a51cec27c9e0ac7892c66f9f5dC45E9360/backlog-2
+
+
+### 5.2.2.2 Implemented Landing Page Evidence
+Para este segundo sprint, se corrigieron los problemas de traducción y diseño identificados en el primer sprint y se realizó un nuevo despliegue. Finalmente, se integraron nuevas historias de usuario en la landing page.
+
+![img_5.png](../assets/sprints/1/img_5.png)
+![img_6.png](../assets/sprints/1/img_6.png)
+![img_7.png](../assets/sprints/1/img_7.png)
+![img_8.png](../assets/sprints/1/img_8.png)
+![img_9.png](../assets/sprints/1/img_9.png)
+
+### 5.2.2.3  Implemented Frontend-Web Application Evidence
+
+### 5.2.2.4  Acuerdo de Servicio - SaaS
+### 5.2.5. Implemented Native-Mobile Application Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.7. RESTful API documentation
+
+### 5.2.8. Team Collaboration Insights
 
 ##### Documentación
-![img_3.png](../assets/sprints/1/img_3.png)
 ##### Aplicación móvil
-![img.png](../assets/sprints/1/img.png)
 ##### Frontend
-![img_1.png](../assets/sprints/1/img_1.png)
 ##### Backend
-![img_2.png](../assets/sprints/1/img_2.png)
-
-
 
 ## 5.3. Video About-the-Product

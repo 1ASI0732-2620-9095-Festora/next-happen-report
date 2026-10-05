@@ -128,3 +128,10 @@
 - [7.3. Continuous Deployment](chapters/chapter%20VII.md#73-continuous-deployment)
   - [7.3.1. Tools and Practices](chapters/chapter%20VII.md#731-tools-and-practices)
   - [7.3.2. Production Deployment Pipeline Components](chapters/chapter%20VII.md#732-production-deployment-pipeline-components)
+
+[**Conclusiones y recomendaciones**](conclusions.md)
+
+- [Conclusiones](conclusions.md#conclusiones)
+- [Recomendaciones](conclusions.md#recomendaciones)
+
+[**Bibliografía**](bibliography.md)

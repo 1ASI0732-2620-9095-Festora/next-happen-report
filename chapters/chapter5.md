@@ -391,17 +391,63 @@ Para este segundo sprint, se corrigieron los problemas de traducción y diseño 
 ![img_9.png](../assets/sprints/1/img_9.png)
 
 ### 5.2.2.3  Implemented Frontend-Web Application Evidence
-
+Para el frontend desarrollado con Vue.js, se creó un proyecto en Vercel y se vinculó al repositorio next-happen-frontend. Asimismo, la Single Page Application se redesplegará automáticamente cada vez que se realice un cambio en el repositorio.
+![img.png](../assets/cover/tp/img.png)
 ### 5.2.2.4  Acuerdo de Servicio - SaaS
-### 5.2.5. Implemented Native-Mobile Application Evidence
-### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
-### 5.2.7. RESTful API documentation
+Esta sección establece los derechos, obligaciones y restricciones aplicables a los diferentes usuarios (compradores, organizadores y emprendedores) de
+la plataforma **NextHappen**, garantizando total transparencia en el uso de nuestro servicio SaaS de gestión de eventos. El presente acuerdo se encuentra
+integrado públicamente en la sección de "Términos y Condiciones" (Terms and Conditions) del website oficial del producto, cumpliendo con los criterios más
+altos de claridad, accesibilidad, disponibilidad permanente y cumplimiento normativo en materia de servicios digitales, transacciones electrónicas y
+protección de datos.
 
+A continuación, presentamos un cuadro estructurado con los lineamientos clave del acuerdo, diseñado para garantizar un ecosistema seguro y escalable
+durante la gestión de ferias y eventos:
+
+| ⚖ Cláusula SaaS                 |  Aplicación y Alcance en NextHappen |  Perfiles Afectados |
+    |:--------------------------------| :--- | :--- |
+| **Licencia de Uso**             | Acceso no exclusivo e intransferible a los dashboards de administración (*Organizer*), análisis de datos (*Metrics*) y portal de
+ descubrimiento de eventos.      | Organizadores y Compradores |
+| **Disponibilidad (SLA)**        | Garantía de alta disponibilidad para la validación y escaneo de tickets (QR) en tiempo real, soportando alta concurrencia
+ en la preventa.                 | Todos los usuarios |
+| **Propiedad de los Datos**      | Los organizadores retienen el derecho sobre la data de sus ferias. Los asistentes mantienen total control sobre sus datos
+ de perfil (Módulo *IAM*).       | Organizadores y Asistentes |
+| **Restricciones Técnicas**      | Prohibición estricta de reventa de entradas fuera del sistema, alteración de códigos QR, *scraping* del catálogo y
+ ataques de ingeniería inversa.  | Usuarios en general |
+| **Mantenimiento y Updates**     | Despliegue de nuevas funcionalidades de forma transparente, gracias a nuestra arquitectura de microservicios, evitando
+ tiempos de inactividad.         | Operaciones IT y Usuarios |
+### 5.2.5. Implemented Native-Mobile Application Evidence
+![img_2.png](../assets/cover/mobile/img_2.png)
+![img_3.png](../assets/cover/mobile/img_3.png)
+![img_1.png](../assets/cover/mobile/img_1.png)
+![img.png](../assets/cover/mobile/img.png)
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+Para el desarrollo del backend del proyecto, se implementó una **API RESTful** robusta y escalable utilizando **.NET (ASP.NET Core)**. Esta API actúa
+como la capa central para manejar la lógica de negocio, la persistencia de datos y servir las peticiones del cliente. Además, la aplicación está
+contenerizada utilizando **Docker** y configurada para su integración y despliegue continuo (CI/CD) en la nube mediante **Render**.
+
+#####  Arquitectura y Stack Tecnológico
+* Framework: .NET / ASP.NET Core Web API (C#)
+* Arquitectura: REST (Representational State Transfer)
+* Infraestructura: Docker (Contenedores)
+* Despliegue (Hosting): Servicios Web de Render configurados mediante Infraestructura como Código (`render.yaml`)
+
+### 5.2.7. RESTful API documentation
+![img.png](../assets/cover/deployback/img.png)
+![img_3.png](../assets/cover/deployback/img_3.png)
+![img_1.png](../assets/cover/deployback/img_1.png)
+![img_2.png](../assets/cover/deployback/img_2.png)
+![img_5.png](../assets/cover/deployback/img_5.png)
+![img_4.png](../assets/cover/deployback/img_4.png)
 ### 5.2.8. Team Collaboration Insights
 
 ##### Documentación
-##### Aplicación móvil
-##### Frontend
-##### Backend
+![img_3.png](../assets/sprints/1/img_3.png)
 
+##### Aplicación móvil
+![img_5.png](../assets/cover/mobile/img_5.png)
+##### Frontend
+![img_4.png](../assets/cover/mobile/img_4.png)
+
+##### Backend
+![img_6.png](../assets/cover/mobile/img_6.png)
 ## 5.3. Video About-the-Product

@@ -964,6 +964,138 @@ El proceso completo de Continuous Deployment para NextHappen puede representarse
 
 Este flujo permite que el proceso de publicación de NextHappen sea repetible, controlado y menos dependiente de tareas manuales.
 
+## 7.4. Continuous Monitoring
+
+El **Continuous Monitoring (Monitoreo Continuo)** es una práctica de DevOps que permite supervisar la disponibilidad, el rendimiento y la estabilidad de una aplicación después de su despliegue. Su finalidad es detectar oportunamente incidentes, analizar su causa y facilitar la aplicación de medidas correctivas.
+
+Para **NextHappen**, producto de la startup **Festora**, esta práctica resulta relevante debido a que los asistentes necesitan consultar eventos y gestionar reservas, mientras que los organizadores requieren publicar actividades y administrar sus entradas. Una interrupción de los servicios podría afectar estas operaciones y la experiencia de los usuarios.
+
+El monitoreo propuesto contempla la aplicación web desarrollada con **Vue.js**, la API RESTful implementada con **ASP.NET Core** y la base de datos **MySQL**. Además, complementa las prácticas de Continuous Integration, Continuous Delivery y Continuous Deployment descritas previamente, mediante verificaciones posteriores a cada publicación.
+
+### 7.4.1. Tools and Practices
+
+Para implementar el monitoreo continuo se consideran herramientas que permitan supervisar los servicios, recopilar métricas y evaluar el comportamiento de la aplicación.
+
+**Apache JMeter:** Se propone utilizar esta herramienta para ejecutar pruebas de carga y estrés sobre los endpoints RESTful. Permitirá simular solicitudes simultáneas de consulta de eventos y reservas, identificar tiempos de respuesta elevados y evaluar la capacidad del backend ante incrementos de demanda.
+
+**Google Analytics:** Permitirá analizar la interacción de los usuarios con NextHappen, incluyendo visitas, páginas consultadas y recorridos de navegación. Estos datos contribuirán a identificar oportunidades de mejora en los procesos de búsqueda y consulta de eventos. Su uso deberá respetar los requisitos aplicables de privacidad y consentimiento.
+
+**Postman:** Se utilizará para comprobar las respuestas de los endpoints principales de la API, verificar códigos HTTP y ejecutar solicitudes de prueba que permitan detectar problemas funcionales en los servicios.
+
+**UptimeRobot:** Se propone para comprobar periódicamente la disponibilidad de la aplicación y de un endpoint de estado del backend. Sus verificaciones permitirán detectar interrupciones del servicio.
+
+**Google Lighthouse:** Permitirá realizar auditorías periódicas del frontend Vue.js en términos de rendimiento, accesibilidad, buenas prácticas y posicionamiento web. Sus resultados servirán como referencia para mejorar la experiencia de navegación.
+
+**Prometheus y Grafana:** Prometheus permitirá recopilar métricas de los servicios, siempre que el backend ASP.NET Core cuente con la instrumentación necesaria. Grafana permitirá visualizar los indicadores mediante paneles de control, facilitando la identificación de anomalías y tendencias de rendimiento.
+
+Como prácticas complementarias, se propone realizar verificaciones posteriores al despliegue, revisar periódicamente los registros de ejecución, analizar los incidentes detectados y documentar las acciones correctivas. Estas actividades permitirán mejorar progresivamente la estabilidad de NextHappen.
+
+### 7.4.2. Monitoring Pipeline Components
+
+El pipeline de monitoreo continuo estará compuesto por etapas orientadas a recopilar, procesar y visualizar información sobre el estado de los componentes de NextHappen.
+
+**1. Recopilación de métricas del backend.** Mediante Prometheus y la instrumentación de ASP.NET Core se propone recopilar indicadores como tiempo de respuesta, número de solicitudes, errores HTTP, consumo de memoria y CPU. Estas métricas permitirán identificar degradaciones del rendimiento de la API.
+
+**2. Supervisión del frontend.** Google Lighthouse permitirá evaluar periódicamente la calidad técnica de la aplicación Vue.js. Google Analytics, por su parte, permitirá analizar patrones de navegación y uso de funcionalidades como la consulta de eventos.
+
+**3. Verificación de servicios y base de datos.** Postman permitirá comprobar operaciones críticas de la API. UptimeRobot supervisará la disponibilidad del servicio y, mediante los registros y métricas del entorno de alojamiento, se podrán investigar fallos de conexión o consultas lentas a PostgreSQL. La comprobación de la base de datos deberá realizarse mediante mecanismos seguros que no expongan credenciales ni información sensible.
+
+**4. Visualización de resultados.** Grafana permitirá representar las métricas recopiladas por Prometheus en paneles de control, facilitando la identificación de picos de errores, consumo elevado de recursos y variaciones de los tiempos de respuesta.
+
+**5. Verificación posterior al despliegue.** Después de publicar una versión mediante el proceso descrito en la sección 7.3, se comprobará la disponibilidad de la aplicación, la respuesta de los endpoints principales y el funcionamiento de las operaciones esenciales. Si se detecta un incidente crítico asociado a una nueva versión, se evaluará la aplicación de correcciones o el retorno a una versión estable.
+
+El flujo propuesto es el siguiente:
+
+```text
+Aplicación NextHappen
+(Vue.js + ASP.NET Core + MySQL)
+               |
+               v
+Recopilación y verificación
+(Prometheus, UptimeRobot, Postman,
+ Google Analytics y Lighthouse)
+               |
+               v
+Análisis y visualización
+(Grafana y registros de aplicación)
+               |
+               v
+Detección de incidentes y alertas
+               |
+               v
+Notificación al equipo de Festora
+               |
+               v
+Diagnóstico, corrección y nueva verificación
+```
+
+*Figura propuesta: Flujo del pipeline de monitoreo continuo de NextHappen. Elaboración propia.*
+
+### 7.4.3. Alerting Pipeline Components
+
+El pipeline de alertas tendrá como finalidad detectar condiciones anómalas que puedan afectar la disponibilidad, el rendimiento o la estabilidad de NextHappen. Para ello, se propone utilizar **Prometheus, Alertmanager y Grafana**.
+
+**Prometheus:** Evaluará reglas de alerta definidas a partir de las métricas recopiladas del backend, tales como errores HTTP, tiempos de respuesta y consumo de recursos.
+
+**Alertmanager:** Permitirá agrupar, clasificar y dirigir las alertas generadas por Prometheus hacia los canales de comunicación configurados por el equipo. También podrá reducir la duplicación de avisos relacionados con un mismo incidente.
+
+**Grafana:** Permitirá visualizar las métricas y las condiciones que originaron una alerta, facilitando el análisis del comportamiento del sistema antes y después de un incidente.
+
+Se proponen los siguientes umbrales iniciales de supervisión:
+
+| Indicador | Condición de alerta propuesta | Severidad |
+|---|---|---|
+| Disponibilidad del backend | Servicio inaccesible durante 2 minutos | Crítica |
+| Errores HTTP 5xx | Más del 5 % de solicitudes durante 5 minutos | Alta |
+| Tiempo de respuesta de la API | Percentil 95 superior a 2 segundos durante 5 minutos | Advertencia |
+| Consumo de memoria | Superior al 85 % del límite asignado durante 10 minutos | Advertencia |
+| Conectividad con PostgreSQL | Fallos continuos de conexión durante 2 minutos | Crítica |
+
+*Tabla propuesta: Condiciones iniciales de alerta para NextHappen. Elaboración propia.*
+
+Los umbrales deberán validarse y ajustarse a partir de las pruebas de rendimiento y de las características reales del entorno de alojamiento. Para evaluar las condiciones será necesario disponer de métricas adecuadas y configurar las reglas correspondientes.
+
+Cuando se identifique una condición crítica, el sistema podrá generar una alerta que permita al equipo revisar el servicio afectado, investigar su causa y aplicar las acciones correctivas necesarias. Esto resulta especialmente importante para los procesos de consulta de eventos, administración de entradas y gestión de reservas.
+
+### 7.4.4. Notification Pipeline Components
+
+El pipeline de notificaciones permitirá comunicar al equipo de Festora los incidentes detectados por el sistema de monitoreo y los resultados de los procesos automatizados de integración y despliegue de NextHappen.
+
+**GitHub Actions:** Permitirá consultar el estado de los workflows asociados a la compilación, ejecución de pruebas y despliegue. El equipo podrá revisar los registros de cada ejecución y configurar avisos ante fallos de construcción, pruebas automatizadas o publicación de nuevas versiones.
+
+**Alertmanager:** Permitirá enviar notificaciones de los incidentes detectados por Prometheus a canales configurados por el equipo, como correo electrónico o plataformas de mensajería. Los mensajes podrán incluir el servicio afectado, la gravedad del incidente, la condición detectada y el momento de activación de la alerta.
+
+**Gestión de incidentes:** Una vez recibida una notificación, el equipo deberá revisar las métricas y los registros correspondientes para identificar el origen del problema. Si el incidente coincide con un despliegue reciente, se podrán consultar los registros de GitHub Actions para evaluar su relación con los cambios publicados.
+
+En caso de detectarse un problema crítico, se procederá a corregir la configuración o el código afectado, o a considerar el retorno a una versión estable anterior. Después de aplicar la solución, se verificarán nuevamente los servicios para confirmar la recuperación de su funcionamiento.
+
+El flujo propuesto para las notificaciones es el siguiente:
+
+```text
+Detección de error o anomalía
+               |
+               v
+Prometheus / GitHub Actions
+               |
+               v
+Alertmanager / Notificaciones del workflow
+               |
+               v
+Correo electrónico o canal configurado
+               |
+               v
+Equipo de desarrollo de Festora
+               |
+               v
+Revisión de métricas y registros
+               |
+               v
+Corrección y verificación del servicio
+```
+
+De esta manera, el monitoreo continuo complementará las prácticas DevOps de NextHappen, permitiendo establecer un proceso de observación, detección, comunicación y resolución de incidentes. Su implementación progresiva contribuirá a mejorar la confiabilidad de la plataforma y a mantener disponibles las funcionalidades esenciales para asistentes y organizadores de eventos culturales independientes.
+
+
 ---
 
 # Avance de Conclusiones
